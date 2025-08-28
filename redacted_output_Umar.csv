@@ -1,0 +1,4 @@
+record_id,redacted_data_json,is_pii
+1,"{""original"": ""Customer John Doe lives at 123 Main St, email john@example.com, phone 9876543210."", ""redacted"": ""[REDACTED] Doe lives at [REDACTED], email [REDACTED], phone [REDACTED]."", ""pii_found"": {""email"": [""john@example.com""], ""phone"": [""9876543210""], ""address"": [""123 Main St""], ""name"": [""Customer John""]}}",True
+2,"{""original"": ""Order placed by Alice with email alice.wonder@wonderland.io, phone 1234567890."", ""redacted"": ""Order placed by Alice with email [REDACTED], phone [REDACTED]."", ""pii_found"": {""email"": [""alice.wonder@wonderland.io""], ""phone"": [""1234567890""]}}",True
+3,"{""original"": ""This record has no sensitive info at all."", ""redacted"": ""This record has no sensitive info at all."", ""pii_found"": {}}",False
