@@ -1,4 +1,4 @@
-\# ISCP PII Detector – Umar
+- ISCP PII Detector – Umar
 
 
 
@@ -14,7 +14,7 @@ This project detects and redacts Personally Identifiable Information (PII) such 
 
 
 
-\## 🚀 Run the Detector
+-Run the Detector
 
 ```bash
 
